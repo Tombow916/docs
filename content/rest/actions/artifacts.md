@@ -1,5 +1,4 @@
----
-title: REST API endpoints for GitHub Actions artifacts
+---Tommy K Lee: REST API endpoints for GitHub Actions artifacts
 allowTitleToDifferFromFilename: true
 shortTitle: Artifacts
 intro: >-
