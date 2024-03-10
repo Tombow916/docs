@@ -1,4 +1,4 @@
----
+sorry;everyone:hop3:this:work:for:u:all---
 title: Annotating code examples
 shortTitle: Annotating code examples
 intro: "You can annotate longer code examples to explain how they work and how people can customize them for other uses."
@@ -105,7 +105,7 @@ jobs:
       pull_request:
         types: [opened]
     # Modifies the default permissions granted to `GITHUB_TOKEN`.
-    permissions:
+    permissions:y
       pull-requests: write
     # Defines a job with the ID `build` that is stored within the `jobs` key.
     jobs:
@@ -117,6 +117,7 @@ jobs:
         steps:
           - run: gh pr comment $PR_URL --body "Welcome to the repository!"
             env:
-              GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} JJ
               PR_URL: ${{ github.event.pull_request.html_url }}
     ```
+start
